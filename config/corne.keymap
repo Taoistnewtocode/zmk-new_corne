@@ -65,15 +65,15 @@
             //                                                      enter
 
             bindings = <
-&kp TAB    &kp Q             &kp W      &kp F     &kp P        &kp B          &kp UP_ARROW     &kp J        &kp L  &kp U      &kp Y    &kp MINUS          &kp BSPC
-&td0       &mt LEFT_SHIFT A  &kp R      &kp S     &kp T        &kp G          &kp DOWN_ARROW   &kp M        &kp N  &kp E      &kp I    &mt RIGHT_SHIFT O  &kp SQT
-&kp LCTRL  &kp Z             &kp X      &kp C     &kp V        &kp B          &kp LEFT_ARROW   &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH           &kp ESC
-                             &kp SPACE  &kp LGUI  &lt 1 SPACE  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
+&kp TAB    &kp Q             &kp W      &kp F     &kp P        &kp B          &kp UP_ARROW     &kp J        &kp L                     &kp U      &kp Y    &kp MINUS          &kp BSPC
+&td0       &mt LEFT_SHIFT A  &kp R      &kp S     &kp T        &kp G          &kp DOWN_ARROW   &kp M        &kp N                     &kp E      &kp I    &mt RIGHT_SHIFT O  &kp SQT
+&kp LCTRL  &kp Z             &kp X      &kp C     &kp V        &kp B          &kp LEFT_ARROW   &kp K        &kp H                     &kp COMMA  &kp DOT  &kp FSLH           &kp ESC
+                             &kp SPACE  &kp LGUI  &lt 1 SPACE  &lt 3 LC(C)    &kp RIGHT_ARROW  &lt 2 ENTER  &mt RC(DELETE) BACKSPACE  &kp RALT
                                                                               &kp ENTER
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
