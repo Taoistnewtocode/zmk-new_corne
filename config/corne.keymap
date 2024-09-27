@@ -84,6 +84,8 @@
                             &trans             &trans                &trans                 &trans         &trans  &trans  &kp N0  &trans
                                                                                                            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         symbol {
@@ -91,7 +93,7 @@
 &trans  &kp AT_SIGN              &kp RIGHT_BRACKET  &kp EXCLAMATION       &kp PLUS               &kp CARET      &trans  &trans  &trans  &trans  &trans  &trans           &trans
 &trans  &mt LEFT_SHIFT ASTERISK  &kp LEFT_BRACKET   &kp GREATER_THAN      &kp POUND              &kp EQUAL      &trans  &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT  &trans
 &trans  &kp BACKSLASH            &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans           &trans
-                                 &trans             &trans                &trans                 &trans         &trans  &trans  &trans  &trans
+                                 &trans             &kp K_CUT             &kp K_COPY             &kp K_PASTE    &trans  &trans  &trans  &trans
                                                                                                                 &trans
             >;
 
