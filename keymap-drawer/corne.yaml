@@ -14,7 +14,7 @@ layers:
   - Y
   - {t: '-', s: _}
   - {t: '[', s: '{'}
-  - '&td0'
+  - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - R
   - S
@@ -31,15 +31,15 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:arrow-left-bold$$
   - K
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: \, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: ;, s: ':'}
   - $$mdi:keyboard-space$$
   - {t: AC DESKTOP SHOW ALL WINDOWS, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
@@ -47,7 +47,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - {t: '$$mdi:backspace$$', h: 'Ctl+ $$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   number:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   symbol:
   - {t: '$$mdi:transfer$$', type: trans}
