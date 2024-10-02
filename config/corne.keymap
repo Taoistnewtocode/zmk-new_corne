@@ -80,23 +80,23 @@
             //                                                      enter
 
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp F                                           &kp P        &kp B        &kp UP_ARROW     &kp J        &kp L          &kp U          &kp Y       &kp MINUS            &kp LEFT_BRACKET
-&kp CAPS    &mt LEFT_SHIFT A  &kp R      &kp S                                           &kp T        &kp G        &kp DOWN_ARROW   &kp M        &kp N          &kp E          &mt PIPE I  &mt RIGHT_SHIFT O    &kp SQT
-&kp LCTRL   &kp Z             &kp X      &kp C                                           &kp D        &kp V        &kp LEFT_ARROW   &kp K        &kp H          &kp COMMA      &kp DOT     &mt BACKSLASH SLASH  &kp SEMI
-                              &kp SPACE  &mt LEFT_CONTROL C_AC_DESKTOP_SHOW_ALL_WINDOWS  &lt 3 SPACE  &lt 1 TAB    &kp RIGHT_ARROW  &lt 2 ENTER  &kp BACKSPACE  &kp RIGHT_ALT
+&kp ESCAPE  &kp Q             &kp W      &kp F                                           &kp P        &kp B        &kp UP_ARROW     &kp J          &kp L        &kp U          &kp Y       &kp MINUS            &kp LEFT_BRACKET
+&kp CAPS    &mt LEFT_SHIFT A  &kp R      &kp S                                           &kp T        &kp G        &kp DOWN_ARROW   &kp M          &kp N        &kp E          &mt PIPE I  &mt RIGHT_SHIFT O    &kp SQT
+&kp LCTRL   &kp Z             &kp X      &kp C                                           &kp D        &kp V        &kp LEFT_ARROW   &kp K          &kp H        &kp COMMA      &kp DOT     &mt BACKSLASH SLASH  &kp SEMI
+                              &kp SPACE  &mt LEFT_CONTROL C_AC_DESKTOP_SHOW_ALL_WINDOWS  &lt 1 SPACE  &lt 3 TAB    &kp RIGHT_ARROW  &kp BACKSPACE  &lt 2 ENTER  &kp RIGHT_ALT
                                                                                                                    &kp ENTER
             >;
 
             label = "COLEMAK DH";
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
         number {
             bindings = <
-&trans  &kp AT_SIGN         &kp RIGHT_BRACKET  &kp EXCLAMATION       &kp PLUS               &kp CARET      &trans  &kp N7           &kp N8  &kp N9      &kp MINUS  &trans           &trans
-&trans  &mt SPACE ASTERISK  &kp LEFT_BRACKET   &kp DOLLAR            &kp POUND              &kp EQUAL      &trans  &kp N4           &kp N5  &kp N6      &kp PLUS   &kp RIGHT_SHIFT  &trans
-&trans  &kp BACKSLASH       &kp SEMICOLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &trans  &kp N1           &kp N2  &kp N3      &trans     &trans           &trans
-                            &trans             &trans                &trans                 &trans         &trans  &kp PRINTSCREEN  &kp N0  &kp DELETE
+&trans  &kp AT_SIGN         &kp RIGHT_BRACKET  &kp EXCLAMATION       &kp PLUS               &kp CARET      &trans  &kp N7      &kp N8  &kp N9           &kp MINUS  &trans           &trans
+&trans  &mt SPACE ASTERISK  &kp LEFT_BRACKET   &kp DOLLAR            &kp POUND              &kp EQUAL      &trans  &kp N4      &kp N5  &kp N6           &kp PLUS   &kp RIGHT_SHIFT  &trans
+&trans  &kp BACKSLASH       &kp SEMICOLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &trans  &kp N1      &kp N2  &kp N3           &trans     &trans           &trans
+                            &trans             &trans                &trans                 &trans         &trans  &kp DELETE  &kp N0  &kp PRINTSCREEN
                                                                                                            &trans
             >;
 
@@ -105,10 +105,10 @@
 
         symbol {
             bindings = <
-&trans  &kp AT_SIGN              &kp RIGHT_BRACKET  &kp EXCLAMATION       &kp PLUS               &kp CARET      &trans  &trans  &trans         &trans  &trans  &trans           &trans
-&trans  &mt LEFT_SHIFT ASTERISK  &kp LEFT_BRACKET   &kp DOLLAR            &kp POUND              &kp EQUAL      &trans  &trans  &kp AMPERSAND  &trans  &trans  &kp RIGHT_SHIFT  &trans
-&trans  &kp BACKSLASH            &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &trans  &trans  &trans         &trans  &trans  &trans           &trans
-                                 &trans             &kp K_CUT             &kp K_COPY             &kp K_PASTE    &trans  &trans  &trans         &trans
+&trans  &kp AT_SIGN              &kp RIGHT_BRACKET  &kp DOLLAR            &kp PLUS               &kp CARET      &trans  &trans    &trans          &trans        &trans     &trans           &trans
+&trans  &mt LEFT_SHIFT ASTERISK  &kp LEFT_BRACKET   &kp EXCLAMATION       &kp POUND              &kp EQUAL      &trans  &kp AMPS  &kp AMPERSAND   &kp UP_ARROW  &kp PIPE   &kp RIGHT_SHIFT  &trans
+&trans  &kp BACKSLASH            &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT    &trans  &trans    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans           &trans
+                                 &trans             &kp K_CUT             &kp K_COPY             &kp K_PASTE    &trans  &trans    &trans          &trans
                                                                                                                 &trans
             >;
 
