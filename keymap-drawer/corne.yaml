@@ -12,8 +12,8 @@ layers:
   - L
   - U
   - Y
-  - {t: '-', s: _}
-  - {t: '[', s: '{'}
+  - {t: '''', s: '"'}
+  - '|'
   - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - R
@@ -24,9 +24,9 @@ layers:
   - M
   - N
   - E
-  - {t: I, h: '|'}
+  - I
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '''', s: '"'}
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: /, h: \, s: '?'}
   - {t: ;, s: ':'}
   - $$mdi:keyboard-space$$
-  - {t: AC DESKTOP SHOW ALL WINDOWS, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: number}
   - {t: '$$mdi:keyboard-tab$$', h: mouse}
   - $$mdi:arrow-right-bold$$
