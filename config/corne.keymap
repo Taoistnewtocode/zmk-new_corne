@@ -80,11 +80,11 @@
             //                                                      enter
 
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp F                                           &kp P        &kp B        &kp UP_ARROW     &kp J          &kp L        &kp U          &kp Y       &kp MINUS            &kp LEFT_BRACKET
-&kp CAPS    &mt LEFT_SHIFT A  &kp R      &kp S                                           &kp T        &kp G        &kp DOWN_ARROW   &kp M          &kp N        &kp E          &mt PIPE I  &mt RIGHT_SHIFT O    &kp SQT
-&kp LCTRL   &kp Z             &kp X      &kp C                                           &kp D        &kp V        &kp LEFT_ARROW   &kp K          &kp H        &kp COMMA      &kp DOT     &mt BACKSLASH SLASH  &kp SEMI
-                              &kp SPACE  &mt LEFT_CONTROL C_AC_DESKTOP_SHOW_ALL_WINDOWS  &lt 1 SPACE  &lt 3 TAB    &kp RIGHT_ARROW  &kp BACKSPACE  &lt 2 ENTER  &kp RIGHT_ALT
-                                                                                                                   &kp ENTER
+&kp ESCAPE  &kp Q             &kp W      &kp F                          &kp P        &kp B        &kp UP_ARROW     &kp J          &kp L        &kp U          &kp Y    &kp SQT              &kp PIPE
+&kp CAPS    &mt LEFT_SHIFT A  &kp R      &kp S                          &kp T        &kp G        &kp DOWN_ARROW   &kp M          &kp N        &kp E          &kp I    &mt RIGHT_SHIFT O    &kp MINUS
+&kp LCTRL   &kp Z             &kp X      &kp C                          &kp D        &kp V        &kp LEFT_ARROW   &kp K          &kp H        &kp COMMA      &kp DOT  &mt BACKSLASH SLASH  &kp SEMI
+                              &kp SPACE  &mt LEFT_CONTROL LEFT_BRACKET  &lt 1 SPACE  &lt 3 TAB    &kp RIGHT_ARROW  &kp BACKSPACE  &lt 2 ENTER  &kp RIGHT_ALT
+                                                                                                  &kp ENTER
             >;
 
             label = "COLEMAK DH";
