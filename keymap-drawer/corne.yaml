@@ -47,7 +47,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '>', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   number:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '*', h: '$$mdi:keyboard-space$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '[', s: '{'}
   - '!'
   - '#'
