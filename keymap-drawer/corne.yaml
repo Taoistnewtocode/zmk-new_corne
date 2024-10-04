@@ -184,8 +184,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_INC'
   - '&bl BL_DEC'
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&bl BL_TOG'
+  - '&bl BL_ON'
+  - '&bl BL_OFF'
   - PAUSE BREAK
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
